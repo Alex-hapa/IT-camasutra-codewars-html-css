@@ -49,5 +49,8 @@ Hello JS
 
 // const quotient = 66 / 33;
 
-let myVar = 87;
-myVar++;
+// let myVar = 87;
+// myVar++;
+
+let myVar = 11;
+myVar--;
