@@ -55,5 +55,7 @@ Hello JS
 // let myVar = 11;
 // myVar--;
 
-const ourDecimal = 5.7;
-const myDecimal = 3.5;
+// const ourDecimal = 5.7;
+// const myDecimal = 3.5;
+
+const product = 2.0 * 2.5;
