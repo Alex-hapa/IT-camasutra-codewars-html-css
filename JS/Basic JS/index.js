@@ -9,7 +9,9 @@ Hello JS
 // var a;
 // a = 7;
 
-var a;
-a = 7;
-var b;
-b = a;
+// var a;
+// a = 7;
+// var b;
+// b = a;
+
+var a = 9;
