@@ -52,5 +52,8 @@ Hello JS
 // let myVar = 87;
 // myVar++;
 
-let myVar = 11;
-myVar--;
+// let myVar = 11;
+// myVar--;
+
+const ourDecimal = 5.7;
+const myDecimal = 3.5;
