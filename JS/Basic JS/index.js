@@ -14,4 +14,7 @@ Hello JS
 // var b;
 // b = a;
 
-var a = 9;
+// var a = 9;
+
+var myFirstName = "Aliaksandr";
+var myLastName = "Hapankou";
