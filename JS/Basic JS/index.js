@@ -109,3 +109,7 @@ Hello JS
 const someAdjective = "amazing";
 let myStr = "Learning to code is ";
 myStr += someAdjective;
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
