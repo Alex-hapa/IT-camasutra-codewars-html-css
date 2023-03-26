@@ -121,5 +121,8 @@ Hello JS
 // let myStr = "Jello World";
 // myStr = "Hello World";
 
+// const lastName = "Lovelace";
+// const thirdLetterOfLastName = lastName[2];
+
 const lastName = "Lovelace";
-const thirdLetterOfLastName = lastName[2];
+const lastLetterOfLastName = lastName[lastName.length - 1];
