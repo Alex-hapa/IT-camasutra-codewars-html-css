@@ -103,5 +103,26 @@ Hello JS
 // let myStr = "This is the first sentence.";
 // myStr += " This is the second sentence.";
 
-const myName = "Aliaksandr";
-const myStr = "My name is " + myName + " and I am well!";
+// const myName = "Aliaksandr";
+// const myStr = "My name is " + myName + " and I am well!";
+//
+// const someAdjective = "amazing";
+// let myStr = "Learning to code is ";
+// myStr += someAdjective;
+//
+// let lastNameLength = 0;
+// const lastName = "Lovelace";
+// lastNameLength = lastName.length;
+
+// let firstLetterOfLastName = "";
+// const lastName = "Lovelace";
+// firstLetterOfLastName = lastName[0];
+
+// let myStr = "Jello World";
+// myStr = "Hello World";
+
+// const lastName = "Lovelace";
+// const thirdLetterOfLastName = lastName[2];
+
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length - 1];
