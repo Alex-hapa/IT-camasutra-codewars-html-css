@@ -136,4 +136,6 @@ Hello JS
 // const myAdverb = "quickly";
 // const wordBlanks = myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb + '.';
 
-const myArray = ['yo', 15];
+// const myArray = ['yo', 15];
+
+const myArray = [["Ford", 2010], ["Nissan", 2012]];
