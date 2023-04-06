@@ -138,4 +138,7 @@ Hello JS
 
 // const myArray = ['yo', 15];
 
-const myArray = [["Ford", 2010], ["Nissan", 2012]];
+// const myArray = [["Ford", 2010], ["Nissan", 2012]];
+
+const myArray = [50, 60, 70];
+const myData = myArray[0];
