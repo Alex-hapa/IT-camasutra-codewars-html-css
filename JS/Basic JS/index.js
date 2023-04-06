@@ -130,8 +130,10 @@ Hello JS
 // const lastName = "Lovelace";
 // const secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-const wordBlanks = myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb + '.';
+// const myNoun = "dog";
+// const myAdjective = "big";
+// const myVerb = "ran";
+// const myAdverb = "quickly";
+// const wordBlanks = myAdjective + ' ' + myNoun + ' ' + myVerb + ' ' + myAdverb + '.';
+
+const myArray = ['yo', 15];
