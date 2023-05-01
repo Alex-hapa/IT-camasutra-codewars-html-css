@@ -140,5 +140,8 @@ Hello JS
 
 // const myArray = [["Ford", 2010], ["Nissan", 2012]];
 
-const myArray = [50, 60, 70];
-const myData = myArray[0];
+// const myArray = [50, 60, 70];
+// const myData = myArray[0];
+
+const myArray = [18, 64, 99];
+myArray[0] = 45;
