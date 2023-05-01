@@ -9,7 +9,7 @@ function XO(str) {
             countO++;
         }
     }
-    if (countX === countO){
+    if (countX === countO) {
         return true
     } else {
         return false
