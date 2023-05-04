@@ -1,2 +1,1 @@
-# IT-camasutra-codewars-html-css
-Here is my practise
+# Here is my practise in JavaScript, HTML, CSS
