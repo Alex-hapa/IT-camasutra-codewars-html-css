@@ -170,7 +170,12 @@ Hello JS
 // const myList = [];
 // myList.push(['Chocolate Bar', 15],['Banana', 5],['Onion', 3], ['Bread', 1], ['Milk', 2]);
 
-function reusableFunction() {
-    console.log("Hi World");
+// function reusableFunction() {
+//     console.log("Hi World");
+// }
+// reusableFunction();
+
+function functionWithArgs(a, b) {
+    console.log(a + b);
 }
-reusableFunction();
+functionWithArgs(3, 5);
