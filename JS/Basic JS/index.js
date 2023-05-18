@@ -163,6 +163,9 @@ Hello JS
 // const myArray = [["John", 23], ["dog", 3]];
 // const removedFromMyArray = myArray.shift();
 
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
-myArray.unshift(["Paul", 35]);
+// const myArray = [["John", 23], ["dog", 3]];
+// myArray.shift();
+// myArray.unshift(["Paul", 35]);
+
+const myList = [];
+myList.push(['Chocolate Bar', 15],['Banana', 5],['Onion', 3], ['Bread', 1], ['Milk', 2]);
