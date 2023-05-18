@@ -167,5 +167,10 @@ Hello JS
 // myArray.shift();
 // myArray.unshift(["Paul", 35]);
 
-const myList = [];
-myList.push(['Chocolate Bar', 15],['Banana', 5],['Onion', 3], ['Bread', 1], ['Milk', 2]);
+// const myList = [];
+// myList.push(['Chocolate Bar', 15],['Banana', 5],['Onion', 3], ['Bread', 1], ['Milk', 2]);
+
+function reusableFunction() {
+    console.log("Hi World");
+}
+reusableFunction();
