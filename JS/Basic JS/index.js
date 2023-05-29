@@ -180,6 +180,11 @@ Hello JS
 // }
 // functionWithArgs(3, 5);
 
-function timesFive(num) {
-    return num * 5;
+// function timesFive(num) {
+//     return num * 5;
+// }
+
+const myGlobal = 10;
+function fun1() {
+    oopsGlobal = 5;
 }
