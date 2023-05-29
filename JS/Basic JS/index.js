@@ -175,7 +175,11 @@ Hello JS
 // }
 // reusableFunction();
 
-function functionWithArgs(a, b) {
-    console.log(a + b);
+// function functionWithArgs(a, b) {
+//     console.log(a + b);
+// }
+// functionWithArgs(3, 5);
+
+function timesFive(num) {
+    return num * 5;
 }
-functionWithArgs(3, 5);
