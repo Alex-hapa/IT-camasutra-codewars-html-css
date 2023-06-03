@@ -195,10 +195,20 @@ Hello JS
 // }
 // myLocalScope();
 
-const outerWear = "T-Shirt";
-function myOutfit() {
+// const outerWear = "T-Shirt";
+// function myOutfit() {
+//
+//     const outerWear = "sweater";
+//     return outerWear;
+// }
+// myOutfit();
 
-    const outerWear = "sweater";
-    return outerWear;
+let sum = 0;
+function addThree() {
+    sum = sum + 3;
 }
-myOutfit();
+function addFive() {
+    sum = sum + 5;
+}
+addThree();
+addFive();
