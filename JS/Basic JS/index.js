@@ -189,8 +189,16 @@ Hello JS
 //     oopsGlobal = 5;
 // }
 
-function myLocalScope() {
-    const myVar = 0;
-    console.log('inside myLocalScope', myVar);
+// function myLocalScope() {
+//     const myVar = 0;
+//     console.log('inside myLocalScope', myVar);
+// }
+// myLocalScope();
+
+const outerWear = "T-Shirt";
+function myOutfit() {
+
+    const outerWear = "sweater";
+    return outerWear;
 }
-myLocalScope();
+myOutfit();
