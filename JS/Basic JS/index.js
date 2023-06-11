@@ -213,8 +213,13 @@ Hello JS
 // addThree();
 // addFive();
 
-let processed = 0;
-function processArg(num) {
-    return (num + 3) / 5;
+// let processed = 0;
+// function processArg(num) {
+//     return (num + 3) / 5;
+// }
+// processed = processArg(7);
+
+function nextInLine(arr, item) {
+    arr.push(item)
+    return arr.shift();
 }
-processed = processArg(7);
