@@ -203,12 +203,18 @@ Hello JS
 // }
 // myOutfit();
 
-let sum = 0;
-function addThree() {
-    sum = sum + 3;
+// let sum = 0;
+// function addThree() {
+//     sum = sum + 3;
+// }
+// function addFive() {
+//     sum = sum + 5;
+// }
+// addThree();
+// addFive();
+
+let processed = 0;
+function processArg(num) {
+    return (num + 3) / 5;
 }
-function addFive() {
-    sum = sum + 5;
-}
-addThree();
-addFive();
+processed = processArg(7);
