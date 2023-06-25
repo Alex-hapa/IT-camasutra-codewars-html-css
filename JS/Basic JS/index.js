@@ -219,7 +219,11 @@ Hello JS
 // }
 // processed = processArg(7);
 
-function nextInLine(arr, item) {
-    arr.push(item)
-    return arr.shift();
+// function nextInLine(arr, item) {
+//     arr.push(item)
+//     return arr.shift();
+// }
+
+function welcomeToBooleans() {
+    return true;
 }
