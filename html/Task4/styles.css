@@ -5,6 +5,8 @@ body {
     /*background-color: burlywood;*/
 }
 div {
+    margin-left:auto;
+    margin-right:auto;
     width: 80%;
     background-color: burlywood;
 }
