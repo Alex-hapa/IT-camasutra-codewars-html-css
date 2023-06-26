@@ -244,11 +244,20 @@ Hello JS
 //
 // testEqual(10);
 
-function testStrict(val) {
-    if (val === 7) {
+// function testStrict(val) {
+//     if (val === 7) {
+//         return "Equal";
+//     }
+//     return "Not Equal";
+// }
+//
+// testStrict(10);
+
+function compareEquality(a, b) {
+    if (a === b) {
         return "Equal";
     }
     return "Not Equal";
 }
 
-testStrict(10);
+compareEquality(10, "10");
