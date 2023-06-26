@@ -262,11 +262,20 @@ Hello JS
 //
 // compareEquality(10, "10");
 
-function testNotEqual(val) {
-    if (val != 99) { // Change this line
+// function testNotEqual(val) {
+//     if (val != 99) { // Change this line
+//         return "Not Equal";
+//     }
+//     return "Equal";
+// }
+//
+// testNotEqual(10);
+
+function testStrictNotEqual(val) {
+    if (val !== 17) { // Change this line
         return "Not Equal";
     }
     return "Equal";
 }
 
-testNotEqual(10);
+testStrictNotEqual(10);
