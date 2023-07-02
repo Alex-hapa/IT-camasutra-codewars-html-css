@@ -316,14 +316,23 @@ Hello JS
 //
 // testLessThan(10);
 
-function testLessOrEqual(val) {
-    if (val <= 12) {
-        return "Smaller Than or Equal to 12";
+// function testLessOrEqual(val) {
+//     if (val <= 12) {
+//         return "Smaller Than or Equal to 12";
+//     }
+//     if (val <= 24) {
+//         return "Smaller Than or Equal to 24";
+//     }
+//     return "More Than 24";
+// }
+//
+// testLessOrEqual(10);
+
+function testLogicalAnd(val) {
+    if (val >= 25 && val <= 50) {
+        return "Yes";
     }
-    if (val <= 24) {
-        return "Smaller Than or Equal to 24";
-    }
-    return "More Than 24";
+    return "No";
 }
 
-testLessOrEqual(10);
+testLogicalAnd(10);
