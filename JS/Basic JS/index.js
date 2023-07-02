@@ -328,11 +328,20 @@ Hello JS
 //
 // testLessOrEqual(10);
 
-function testLogicalAnd(val) {
-    if (val >= 25 && val <= 50) {
-        return "Yes";
+// function testLogicalAnd(val) {
+//     if (val >= 25 && val <= 50) {
+//         return "Yes";
+//     }
+//     return "No";
+// }
+//
+// testLogicalAnd(10);
+
+function testLogicalOr(val) {
+    if (val < 10 || val > 20) {
+        return "Outside";
     }
-    return "No";
+    return "Inside";
 }
 
-testLogicalAnd(10);
+testLogicalOr(15);
