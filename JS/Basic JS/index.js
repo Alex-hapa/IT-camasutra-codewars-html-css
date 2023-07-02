@@ -337,11 +337,23 @@ Hello JS
 //
 // testLogicalAnd(10);
 
-function testLogicalOr(val) {
-    if (val < 10 || val > 20) {
-        return "Outside";
+// function testLogicalOr(val) {
+//     if (val < 10 || val > 20) {
+//         return "Outside";
+//     }
+//     return "Inside";
+// }
+//
+// testLogicalOr(15);
+
+function testElse(val) {
+    let result = "";
+    if (val > 5) {
+        result = "Bigger than 5";
+    } else {
+        result = "5 or Smaller";
     }
-    return "Inside";
+    return result;
 }
 
-testLogicalOr(15);
+testElse(4);
