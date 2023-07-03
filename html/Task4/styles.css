@@ -10,7 +10,7 @@ body {
     width: 80%;
     background-color: burlywood;
 }
-.flavor {
+.flavor, .dessert {
     text-align: left;
     width: 75%;
 }
