@@ -561,10 +561,18 @@ Hello JS
 //     "friends": ["Barsik", "Ceza"]
 // };
 
+// const testObj = {
+//     "hat": "ballcap",
+//     "shirt": "jersey",
+//     "shoes": "cleats"
+// };
+// const hatValue = testObj.hat;
+// const shirtValue = testObj.shirt;
+
 const testObj = {
-    "hat": "ballcap",
-    "shirt": "jersey",
-    "shoes": "cleats"
+    "an entree": "hamburger",
+    "my side": "veggies",
+    "the drink": "water"
 };
-const hatValue = testObj.hat;
-const shirtValue = testObj.shirt;
+const entreeValue = testObj["an entree"];
+const drinkValue = testObj["the drink"];
