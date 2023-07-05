@@ -554,9 +554,17 @@ Hello JS
 //
 // cc(2); cc(3); cc(7); cc('K'); cc('A');
 
-const myDog = {
-    "name": "Bim",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["Barsik", "Ceza"]
+// const myDog = {
+//     "name": "Bim",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": ["Barsik", "Ceza"]
+// };
+
+const testObj = {
+    "hat": "ballcap",
+    "shirt": "jersey",
+    "shoes": "cleats"
 };
+const hatValue = testObj.hat;
+const shirtValue = testObj.shirt;
