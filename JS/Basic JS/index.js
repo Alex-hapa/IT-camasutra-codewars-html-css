@@ -569,10 +569,18 @@ Hello JS
 // const hatValue = testObj.hat;
 // const shirtValue = testObj.shirt;
 
+// const testObj = {
+//     "an entree": "hamburger",
+//     "my side": "veggies",
+//     "the drink": "water"
+// };
+// const entreeValue = testObj["an entree"];
+// const drinkValue = testObj["the drink"];
+
 const testObj = {
-    "an entree": "hamburger",
-    "my side": "veggies",
-    "the drink": "water"
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
 };
-const entreeValue = testObj["an entree"];
-const drinkValue = testObj["the drink"];
+const playerNumber = 16;
+const player = testObj[playerNumber];
