@@ -585,10 +585,18 @@ Hello JS
 // const playerNumber = 16;
 // const player = testObj[playerNumber];
 
+// const myDog = {
+//     "name": "Coder",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": ["freeCodeCamp Campers"]
+// };
+// myDog.name = 'Happy Coder'
+
 const myDog = {
-    "name": "Coder",
+    "name": "Happy Coder",
     "legs": 4,
     "tails": 1,
     "friends": ["freeCodeCamp Campers"]
 };
-myDog.name = 'Happy Coder'
+myDog.bark = 'woof';
