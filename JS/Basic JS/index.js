@@ -610,17 +610,24 @@ Hello JS
 // };
 // delete myDog.tails;
 
-function phoneticLookup(val) {
-    let result = "";
-    const lookup = {
-        "alpha": "Adams",
-        "bravo": "Boston",
-        "charlie": "Chicago",
-        "delta": "Denver",
-        "echo": "Easy",
-        "foxtrot": "Frank"
-    };
-    result = lookup[val];
-    return result;
+// function phoneticLookup(val) {
+//     let result = "";
+//     const lookup = {
+//         "alpha": "Adams",
+//         "bravo": "Boston",
+//         "charlie": "Chicago",
+//         "delta": "Denver",
+//         "echo": "Easy",
+//         "foxtrot": "Frank"
+//     };
+//     result = lookup[val];
+//     return result;
+// }
+// phoneticLookup("charlie");
+
+function checkObj(obj, checkProp) {
+    if(obj.hasOwnProperty(checkProp)) {
+        return obj[checkProp]
+    }
+    return "Not Found";
 }
-phoneticLookup("charlie");
