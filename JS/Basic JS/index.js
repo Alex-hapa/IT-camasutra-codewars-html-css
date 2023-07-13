@@ -724,9 +724,14 @@ Hello JS
 // }
 // updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
+// const myArray = [];
+// let i = 5;
+// while (i >= 0) {
+//     myArray.push(i);
+//     i--;
+// }
+
 const myArray = [];
-let i = 5;
-while (i >= 0) {
+for (let i = 1; i <= 5; i++) {
     myArray.push(i);
-    i--;
 }
