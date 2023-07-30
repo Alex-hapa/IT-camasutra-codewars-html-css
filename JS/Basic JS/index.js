@@ -836,8 +836,14 @@ Hello JS
 //
 // convertToInteger("56");
 
-function convertToInteger(str) {
-    return parseInt(str, 2)
+// function convertToInteger(str) {
+//     return parseInt(str, 2)
+// }
+//
+// convertToInteger("10011");
+
+function checkEqual(a, b) {
+    return a === b ? 'Equal' : 'Not Equal';
 }
 
-convertToInteger("10011");
+checkEqual(1, 2);
